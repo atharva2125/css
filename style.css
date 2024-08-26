@@ -1,0 +1,182 @@
+ /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #161515;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color:#1a1919;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 5px 9px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(68, 69, 68, 0.133);
+}
+
+/* Header Styling */
+.main-header {
+    background: linear-gradient(135deg, #98f81a, #d3c3d4);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 1px solid #169c8c;
+}
+
+.main-header h1 {
+    font-size: 1em;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-header p {
+    font-size: 1em;
+    color: #0a0a0a;
+}
+
+/* About Section */
+.about {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    margin: 30px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(23, 115, 160, 0.2);
+   
+}
+
+.about h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #211f1e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about p {
+    font-size: 1em;
+    color: #555;
+    font-style: italic;
+    line-height: 1.8;
+}
+ 
+#img img {
+    width: 50%; /* adjust the width to make the image smaller */
+    height: 50%;
+    border-radius: 10%;   
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: add a shadow for styling */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #111212;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 30%;
+    border-radius: 10%; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styling */
+.main-footer {
+    background-color: #abf03b;
+    color: #292828;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 5px solid #26f6cc;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+/* Additional Styles for Interaction */
+body:hover {
+    background-color: #e6f7ff;
+}
